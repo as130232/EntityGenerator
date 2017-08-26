@@ -1,0 +1,14 @@
+package ${entityPackageName};
+
+import java.io.Serializable;
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class ${entityPrimaryKeyClassName} implements Serializable{
+${entityAllAttribute}
+	public ${entityPrimaryKeyClassName}(){}
+${keyConstructor}
+${entityAllGetterAndSetter}
+	
+}

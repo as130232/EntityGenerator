@@ -1,0 +1,6 @@
+	public void ${attributeSetter}(${attributeType} ${attributeName}){
+		this.${attributeName} = ${attributeName};
+	}
+	public ${attributeType} ${attributeGetter}() {
+			return this.${attributeName};
+	}
